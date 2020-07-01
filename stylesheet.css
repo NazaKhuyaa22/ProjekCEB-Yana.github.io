@@ -1,0 +1,216 @@
+.page-home .page-home_gameModes-container{
+  background-color:#000;
+  min-height:100px;
+  padding-bottom:5px;
+}
+
+*, ::after, ::before {
+  box-sizing:border-box;
+  float:none;
+  display:block;
+  line-height:17px;
+  position:static;
+  z-index:auto;
+}
+
+.page-home .home-game_modes.Arena {
+  background-image: url(https://web2.hirez.com/smite/v3/img/gamemodes-bg-arena.jpg);
+}
+
+.page-home .home-game_modes{
+  background-position:50%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-top:1px solid #85784a;
+  margin-bottom:3px;
+  position:relative;
+  transition:background 0.2s ease-in-out;
+}
+
+.page-home .home-featuresMode_container{
+  padding-top:33px;
+  text-align:center;
+}
+
+.page-home .page-home_container .wrapped-header.dekstop {
+  position:relative;
+  text-shadow:0 0 12px #000;
+  top:-30px;
+}
+
+.page-home .wrapper-header {
+  margin:2px auto;
+}
+
+.wrapper-header{
+  display:flex;
+  align-items:center;
+  justify-conteny:center;
+  max-width:120px;
+}
+
+.wrapper-header::after, .wrapper-header::before{
+  contenta;"";
+  flex:1 1;
+  height:1px;
+  margin:1px;
+}
+
+.page-home h5{
+  color:#fff;
+  font-weight:400;
+  position:relative;
+  text-alignt:center;
+  text-indent:8px;
+}
+
+.page-home .img-container {
+    position: relative;
+    width: 100%;
+}
+.page-home .img-container img {
+    width: 100%;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+}
+
+.wrapper-header::before {
+  background:linear-gradient (270deg, #85784a 60%, transparent);
+  margin-left:0;
+  margin-right:2px;
+}
+.wrapper-header::after {
+  background:linear-gradient (90deg, #85784a 60%, transparent);
+  margin-left:2px;
+  margin-right:0;
+}
+
+.page-home .home-feturedMode_container .featured-mode {
+  text-align:center;
+  margin:0 auto;
+  max-width:78px;
+}
+
+.page-home .home-featuredMode_container .featured-mode .name{
+  color:#d1c084;
+  font-family:Penumbra Flare;
+  letter-spacing:5px;
+  font-weight:500;
+  font-size:5.3px;
+  margin:0;
+}
+
+.page-home .home-featuredMode__container .featured-mode .about {
+    font-size: 1.6px;
+    line-height: 3px;
+    margin: 0 auto;
+    min-height: 13px;
+    padding: 2px;
+}
+p {
+  color:#fff;
+  font-weight:100;
+}
+
+.page-home .home-featuredMode__container .featured-mode .details {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 65px;
+    padding-top: 1px;
+    text-transform: uppercase;
+ }
+ .page-home .home-featuredMode__container .featured-mode .details .time {
+    font-weight: 500;
+}
+
+.page-home .home-gameModes {
+    margin: 3px auto 0;
+}
+.page-home .home-gameModes .gameModes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 122px;
+}
+.page-home .home-gameModes .gameModes .gameMode {
+    border: 1px solid #85784a;
+    cursor: pointer;
+    margin-bottom: 2px;
+    height: 15.3px;
+    width: 38.5px;
+    overflow: hidden;
+    position: relative;
+}
+.page-home .home-gameModes .gameModes .gameMode .img-container {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+    height: auto;
+}
+.page-home .home-gameModes .gameModes .gameMode .name {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: #fff;
+    display: none;
+    font-family: Penumbra Flare;
+    font-size: 3px;
+    left: 0;
+    letter-spacing: 10px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.button.large {
+    font-size: 1.6px;
+    min-height: 7px;
+    padding: 1px;
+    width: 270px;
+}
+
+.button {
+    align-items: center;
+    background: linear-gradient(180deg,#131b28 0,#131b28 50%,#131b28 0,#050d1a 0,#050d1a);
+    border: 3px solid #85784a;
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.75);
+    color: #ada176;
+    cursor: pointer;
+    display: flex;
+    font-family: "Penumbra Half Serif",sans-serif;
+    justify-content: center;
+    letter-spacing: 4px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+a {
+    text-decoration: none;
+}
+
+
+.button::after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .4;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    -webkit-transition: all .75s cubic-bezier(.19,1,.22,1);
+    transition: all .75s cubic-bezier(.19,1,.22,1);
+    width: 50px;
+}
