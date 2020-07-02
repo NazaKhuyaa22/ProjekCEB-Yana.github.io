@@ -1,217 +1,223 @@
-@ -0,0 +1,216 @@
-.page-home .page-home_gameModes-container{
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Penumbra Flare";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-home_gameModes-container{
   background-color:#000;
-  min-height:100px;
-  padding-bottom:5px;
+  width:100%;
+  border-bottom: 4px solid #85784a;
+  border-top: 4px solid #85784a;
 }
 
-*, ::after, ::before {
-  box-sizing:border-box;
-  float:none;
-  display:block;
-  line-height:17px;
-  position:static;
-  z-index:auto;
-}
-
-.page-home .home-game_modes.Arena {
-  background-image: url(https://web2.hirez.com/smite/v3/img/gamemodes-bg-arena.jpg);
-}
-
-.page-home .home-game_modes{
-  background-position:50%;
-  background-repeat:no-repeat;
-  background-size:cover;
-  border-top:1px solid #85784a;
-  margin-bottom:3px;
-  position:relative;
-  transition:background 0.2s ease-in-out;
-}
-
-.page-home .home-featuresMode_container{
-  padding-top:33px;
+.featured-mode{
+  color:#85784a;
   text-align:center;
+  font-family:"Penumbra Half Serif"
+  text-decoration:none;
+  
 }
 
-.page-home .page-home_container .wrapped-header.dekstop {
+.featured-mode h2{
+  padding-top: 180px;
+  padding-bottom:10px;
+  color:#85784a ;
+  font-weight: 400;
+  letter-spacing: 8px;
+  position: relative;
+  text-align: center;
+  text-indent: 8px;
+  font-family: "Penumbra Half Serif";
+  font-size: 1.6rem;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+}
+.about {
+  color:white;
+  width:60%;
+  font-size:15px;
   position:relative;
-  text-shadow:0 0 12px #000;
-  top:-30px;
+  left:255px;
 }
 
-.page-home .wrapper-header {
-  margin:2px auto;
+.details span{
+  color:#85784a;
 }
 
-.wrapper-header{
-  display:flex;
-  align-items:center;
-  justify-conteny:center;
-  max-width:120px;
+.details p {
+  color:white;
 }
 
-.wrapper-header::after, .wrapper-header::before{
-  contenta;"";
-  flex:1 1;
-  height:1px;
-  margin:1px;
-}
-
-.page-home h5{
-  color:#fff;
-  font-weight:400;
+li{
+  float:left;
+  margin:30px 25px;
+  font-size:15px;
   position:relative;
-  text-alignt:center;
-  text-indent:8px;
+  left:360px;
 }
 
-.page-home .img-container {
-    position: relative;
-    width: 100%;
+.containerAtas {
+  background-image: url(https://web2.hirez.com/smite/v3/img/gamemodes-bg-arena.jpg);
+  background-size:cover;
+  width:100%;
+  height:400px;
 }
-.page-home .img-container img {
-    width: 100%;
+.headerArenaTengah {
+  padding-top: 40px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 8px;
+  position: relative;
+  text-align: center;
+  text-indent: 8px;
+  font-family: "Penumbra Half Serif";
+  font-size: 1.3rem;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
 }
 
-img {
-    border-style: none;
-    max-width: 100%;
-}
-
-.wrapper-header::before {
-  background:linear-gradient (270deg, #85784a 60%, transparent);
+.headerArena {
+  border-bottom:3px solid #85784a ;
   margin-left:0;
   margin-right:2px;
-}
-.wrapper-header::after {
-  background:linear-gradient (90deg, #85784a 60%, transparent);
-  margin-left:2px;
-  margin-right:0;
+  float:left;
 }
 
-.page-home .home-feturedMode_container .featured-mode {
-  text-align:center;
-  margin:0 auto;
-  max-width:78px;
+.cotainerBawah {
+  justify-content:center;
+  width:90%;
+  margin:20px 5%;
+  padding-bottom:5rem;
+  display:flex;
+  flex-wrap:wrap;
 }
 
-.page-home .home-featuredMode_container .featured-mode .name{
-  color:#d1c084;
-  font-family:Penumbra Flare;
-  letter-spacing:5px;
-  font-weight:500;
-  font-size:5.3px;
-  margin:0;
+.gameModes a{
+  text-decoration:none;
 }
 
-.page-home .home-featuredMode__container .featured-mode .about {
-    font-size: 1.6px;
-    line-height: 3px;
-    margin: 0 auto;
-    min-height: 13px;
-    padding: 2px;
-}
-p {
-  color:#fff;
-  font-weight:100;
+.long {
+  width:580px;
+  overflow: hidden;
 }
 
-.page-home .home-featuredMode__container .featured-mode .details {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 65px;
-    padding-top: 1px;
-    text-transform: uppercase;
- }
- .page-home .home-featuredMode__container .featured-mode .details .time {
-    font-weight: 500;
+.arena-box{
+  border: 1px solid #85784a;
+  display: block;
+  float: left;
+  box-shadow: 0 0 10px #000;
+  margin:20px 20px;
+  position:relative;
+  left:15px;
 }
 
-.page-home .home-gameModes {
-    margin: 3px auto 0;
+.arena-image {
+  display: block;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: 50%;
 }
-.page-home .home-gameModes .gameModes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 auto;
-    max-width: 122px;
+
+.arena-image:hover{
+  transform:scale(1.5);
 }
-.page-home .home-gameModes .gameModes .gameMode {
-    border: 1px solid #85784a;
-    cursor: pointer;
-    margin-bottom: 2px;
-    height: 15.3px;
-    width: 38.5px;
-    overflow: hidden;
+
+
+.satu {
+  background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-arena.jpg);
+  transition:.5s;
+}
+.dua {
+  background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-conquest.jpg);
+  transition:.5s;
+}
+.tiga {
+  background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-joust.jpg);
+  transition:.5s;
+}
+.empat {
+  background-image: url(https://web2.hirez.com/smite/v3/img/gamemode-tile-siege.jpg);
+  transition:.5s;
+}
+
+.arena-name{
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  letter-spacing:8px;
+  color: #85784a;
+  display: block;
+  background-color: #050d1a;
+  border: 1px solid #85784a;
+}
+
+h3 {
     position: relative;
-}
-.page-home .home-gameModes .gameModes .gameMode .img-container {
-    -webkit-filter: brightness(100%);
-    filter: brightness(100%);
-    height: auto;
-}
-.page-home .home-gameModes .gameModes .gameMode .name {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    color: #fff;
-    display: none;
-    font-family: Penumbra Flare;
-    font-size: 3px;
-    left: 0;
-    letter-spacing: 10px;
-    pointer-events: none;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    text-transform: uppercase;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: -10px;
+    width: 100%;
+    display: block;
+    padding-top: 1rem;
+    border-top: inherit;
+    font-family: "Penumbra Half Serif";
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3px;
 }
 
-.button.large {
-    font-size: 1.6px;
-    min-height: 7px;
-    padding: 1px;
-    width: 270px;
+.containerBawah{
+  background-color:#000;
+  height:800px;
 }
 
-.button {
-    align-items: center;
-    background: linear-gradient(180deg,#131b28 0,#131b28 50%,#131b28 0,#050d1a 0,#050d1a);
-    border: 3px solid #85784a;
-    box-shadow: 0 0 13px 3px rgba(0,0,0,.75);
-    color: #ada176;
-    cursor: pointer;
-    display: flex;
-    font-family: "Penumbra Half Serif",sans-serif;
-    justify-content: center;
-    letter-spacing: 4px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    transition: all .5s ease;
-}
-a {
-    text-decoration: none;
+.message-wrapperArena{
+  background-color:#000;
+  height:150px;
+  width:100%
 }
 
+.btn-gameModes {
+  border: 3.5px solid #85784a;
+  text-align: center;
+  padding: 35px 20px;
+  background-color: #131b28;
+  cursor: pointer;
+  box-shadow: 0 7px #000;
+  color:#85784a ;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-indent: 8px;
+  font-family: "Penumbra Half Serif";
+  font-size: 20px;
+  position:relative;
+  left:470px;
+}
 
-.button::after {
-    background: #fff;
-    content: "";
-    height: 155px;
-    left: -75px;
-    opacity: .4;
-    position: absolute;
-    top: -50px;
-    -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
-    -webkit-transition: all .75s cubic-bezier(.19,1,.22,1);
-    transition: all .75s cubic-bezier(.19,1,.22,1);
-    width: 50px;
+.btn-gameModes:hover {
+  background-color: rgba(218,165,32,0.2);
+  transition:all 0.5s ease;
+}
+
+.btn-gameModes:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
 }
