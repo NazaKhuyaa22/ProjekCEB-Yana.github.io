@@ -1,95 +1,79 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
   <meta charset="utf-8">
   <title>Smite Game</title>
-  <link rel="stylesheet" href="projekcebArena.css">
-</header>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
 <body>
   <div class="page-home_gameModes-container">
    <div>
-    <div class="home-game_modes Arena">
+    <div class="home-gameModesArena">
       <div class="home-featuredMode_container">
-      
-        <div class="wrapped-header dekstop">
-          ::before
-          <h5>Game Modes</h5>
-          ::after
+      <!--isi dari container FM-->
+       <div class="containerAtas">
+        <div class="wrapped-header"><!--container FM 1-->
+          <div class="headerArena"></div>
+          <h1 class="headerArenatengah">Game Modes</h1>
+          <div class="headerArenaKanan"></div>
         </div>
         
-        <div class="featured-mode">
-          <h2 class="name">Arena</h2>
+        <div class="featured-mode"><!--container FM 2-->
+          <h2>ARENA</h2>
           <p class="about">Minion menjadi pusat perhatian di Colosseum tua yang tertutup. Pertahankan portal Anda dari Minion dan berkuasa sebagai pemenang!</p>
           <div class="details">
-            <p class="players">
-              <span>Players per team: </span>
-              3
-            </p>
-            <p class="time">
-              <span>Avg game time: </span>
-              20 minutes
-            </p>
-            <p class="skill">
-              <span>Suggested skill: </span>
-              Master
-            </p>
+            <ul>
+              <li><p><span>Players per team: </span> 3</p></li>
+              <li><p><span>Avg game time: </span> 20 minutes</p></li>
+              <li><p><span>Suggested skill: </span> Master </p></li>
+            </ul>
           </div>
         </div>
-        
-        <div class="home-gameModes">
+       </div> 
+        <div class="containerBawah"><!--container FM 3-->
           <div class="gameModes">
-          
-            <div class="gameMode Arena">  
-              <div class="img-container">
-                <img src="https://web2.hirez.com/smite/v3/img/gamemode-tile-arena.jpg" alt="game mode">
+            <a href="#">
+              <div class="arena-box long">
+                <div class="arena-image satu" )></div>
+                <div class="arena-name">
+                  <h3>ARENA</h3>
+                </div>
               </div>
-              <div class="name">Arena</div>
-            </div>
+            </a>
             
-            <div class="gameMode Conquest">  
-              <div class="img-container">
-                <img src="https://web2.hirez.com/smite/v3/img/gamemode-tile-conquest.jpg" alt="game mode">
+             <a href="#">
+              <div class="arena-box long">
+                <div class="arena-image dua" style="background-image":url(https://web2.hirez.com/smite/v3/img/gamemode-tile-conquest.jpg)></div>
+                <div class="arena-name">
+                  <h3>CONQUEST</h3>
+                </div>
               </div>
-              <div class="name">Conquest</div>
-            </div>
+            </a>
             
-            <div class="gameMode Assault">  
-              <div class="img-container">
-                <img src="https://web2.hirez.com/smite/v3/img/gamemode-tile-assault.jpg" alt="game mode">
+             <a href="#">
+              <div class="arena-box long">
+                <div class="arena-image tiga" style="background-image":url(https://web2.hirez.com/smite/v3/img/gamemode-tile-joust.jpg)></div>
+                <div class="arena-name">
+                  <h3>JOUST</h3>
+                </div>
               </div>
-              <div class="name">Assault</div>
-            </div>
+            </a>
             
-            <div class="gameMode Joust">  
-              <div class="img-container">
-                <img src="https://web2.hirez.com/smite/v3/img/gamemode-tile-joust.jpg" alt="game mode">
+            <a href="#">
+              <div class="arena-box long">
+                <div class="arena-image empat" style="background-image":url(https://web2.hirez.com/smite/v3/img/gamemode-tile-siege.jpg)></div>
+                <div class="arena-name">
+                  <h3>SIEGE</h3>
+                </div>
               </div>
-              <div class="name">Joust</div>
-            </div>
-            
-            <div class="gameMode Siege">  
-              <div class="img-container">
-                <img src="https://web2.hirez.com/smite/v3/img/gamemode-tile-siege.jpg" alt="game mode">
-              </div>
-              <div class="name">Siege</div>
-            </div>
-            
-            <div class="gameMode Clash">  
-              <div class="img-container">
-                <img src="https://web2.hirez.com/smite/v3/img/gamemode-tile-clash.jpg" alt="game mode">
-              </div>
-              <div class="name">Clash</div>
-            </div>
+            </a>
           </div>
+        </div>
+        <div class="message-wrapperArena">
+             <a CLASS="btn-gameModes" href="#"><span>VIEW GAME MODES</span></a>
         </div>
       </div>
-      <div></div>
     </div>
-    
-    <a class="button large" href="#">
-      View Game Modes
-      ::after
-    </a>
    </div> 
   </div>
 </body>
